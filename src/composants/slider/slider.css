@@ -1,0 +1,14 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: -40px;
+}
+.slider .slide {
+  height: 80vh;
+}
+.slider .slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}/*# sourceMappingURL=slider.css.map */

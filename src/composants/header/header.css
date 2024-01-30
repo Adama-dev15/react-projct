@@ -1,0 +1,193 @@
+header .header_top {
+  padding: 3px;
+  background-color: orangered;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white;
+}
+header .header_search {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+header .logo span {
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
+header .search form .champ {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: orangered;
+  border-radius: 10px;
+  border: 1px solid orangered;
+}
+header .search form .champ input {
+  outline: none;
+  padding: 10px;
+  font-size: 1rem;
+  width: 400px;
+  border: 0;
+  border-radius: 10px 0 0 10px;
+}
+header .search form .champ button {
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+  border: 0;
+  border-radius: 0 10px 10px 0;
+}
+header .search form .champ button:hover {
+  background-color: rgb(241, 110, 63);
+}
+header .connexion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .connexion .inscrire {
+  margin: 0 15px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+header .connexion .inscrire:hover {
+  color: orangered;
+}
+header .connexion .pannier {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+  padding: 8px;
+  font-weight: bolder;
+  position: relative;
+}
+header .connexion .pannier:hover {
+  color: orchid;
+  transition: 0.5s;
+}
+header .connexion .pannier span {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -6px;
+  font-size: 12px;
+}
+header .header_navigation {
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ccc;
+}
+header .header_navigation .nemu_navigation {
+  width: 38px;
+  height: 45px;
+  border: 1px solid transparent;
+  background-color: orangered;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+header .header_navigation .nemu_navigation:hover {
+  background-color: rgba(247, 97, 43, 0.932);
+}
+header .header_navigation .nemu_navigation span {
+  height: 2px;
+  width: 25px;
+  background-color: white;
+  margin: 2px;
+  display: block;
+}
+header .header_navigation .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header_navigation .navigation .article {
+  margin: 0 25px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+header .header_navigation .navigation .article:hover .article_element {
+  display: block;
+  z-index: 100;
+}
+header .header_navigation .navigation .article .name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+header .header_navigation .navigation .article .name:hover {
+  color: orangered;
+}
+header .header_navigation .navigation .article::after {
+  content: "";
+  height: 2px;
+  border-radius: 6px;
+  background-color: orangered;
+  position: absolute;
+  left: 0;
+  width: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+header .header_navigation .navigation .article:hover::after {
+  width: 100%;
+}
+header .header_navigation .navigation .article .article_element {
+  position: absolute;
+  background-color: orangered;
+  color: white;
+  top: 25px;
+  border-radius: 6px;
+  display: none;
+}
+header .header_navigation .navigation .article .article_element ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+header .header_navigation .navigation .article .article_element ul li {
+  margin-right: 40px;
+  position: relative;
+}
+header .header_navigation .navigation .article .article_element ul li::after {
+  content: "";
+  height: 2px;
+  border-radius: 6px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  width: 0;
+  bottom: 0;
+  transition: 0.5s;
+}
+header .header_navigation .navigation .article .article_element ul li:hover::after {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */

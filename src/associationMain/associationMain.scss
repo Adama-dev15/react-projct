@@ -1,0 +1,25 @@
+.associationMain{
+    padding: 40px 80px 30px 80px;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 80px;
+
+    .coteAside{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+    .coteProduct{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .productsChild{
+            margin-top: -50px;
+        }
+        .productElectronique{
+            margin: 30px 0 100px 0;
+        }
+    }
+}

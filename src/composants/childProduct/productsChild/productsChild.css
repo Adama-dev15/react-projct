@@ -1,0 +1,60 @@
+.productsChild-section {
+  margin: 0;
+}
+.productsChild-section .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.productsChild-section .top .title {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 30px 0 0 0;
+  margin: 20px 0 30px 0;
+}
+.productsChild-section .top .trie {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 0 20px;
+  background-color: #ccc;
+  margin-right: 30px;
+  transition: all 0.5s;
+  position: relative;
+  cursor: pointer;
+}
+.productsChild-section .top .trie:hover p {
+  color: orangered;
+}
+.productsChild-section .top .trie:hover .hidden {
+  transition: all 0.8s;
+  display: block;
+}
+.productsChild-section .top .trie .hidden {
+  display: none;
+}
+.productsChild-section .top .trie ul {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ccc;
+  position: absolute;
+  z-index: 10;
+  top: 35px;
+  right: 0px;
+}
+.productsChild-section .top .trie ul li {
+  margin: 10px 0;
+}
+.productsChild-section .top .trie ul li:hover {
+  color: orangered;
+}
+.productsChild-section .products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 0;
+  margin-top: -20px;
+}/*# sourceMappingURL=productsChild.css.map */

@@ -1,0 +1,17 @@
+.products-section {
+  background-color: #ccc;
+  padding: 0 80px 30px 80px;
+  margin: 0;
+}
+.products-section .title {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 30px 0 0 0;
+  margin: 20px 0 30px 0;
+}
+.products-section .products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 0;
+  margin-top: -20px;
+}/*# sourceMappingURL=products.css.map */

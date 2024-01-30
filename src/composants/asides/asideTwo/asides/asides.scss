@@ -1,0 +1,23 @@
+.asides-section{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 280px;
+    height: auto;
+
+    .title{
+        border-bottom: 1px solid #ccc;
+        h2{
+            padding: 9px 0 9px 20px;
+            font-size: 1.3rem;
+        }
+    }
+    .asides{
+        position: relative;
+        padding: 0 20px;
+        .article{
+             margin: 15px 0;
+        }
+    }
+}

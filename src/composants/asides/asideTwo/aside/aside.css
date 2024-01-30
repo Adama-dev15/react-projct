@@ -1,0 +1,37 @@
+.aside {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 20px;
+}
+.aside:hover img {
+  transform: scale(1.2);
+}
+.aside:hover h2 {
+  transition: all 0.5s;
+  color: rgb(148, 145, 144);
+}
+.aside .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  position: relative;
+}
+.aside .image img {
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+  transition: all 0.5s;
+}
+.aside .aside-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.aside .aside-desc h2 {
+  font-size: 1.1rem;
+}
+.aside .aside-desc h4 {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=aside.css.map */
